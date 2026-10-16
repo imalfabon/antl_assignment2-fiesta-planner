@@ -1,35 +1,24 @@
-# Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.env.local
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
 
-# Backend
-backend/.env
-backend/__pycache__/
-backend/*.pyc
-backend/venv/
-backend/.venv/
-backend/env/
+# Node
+node_modules/
+dist/
+
+# Database
+*.db
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-.DS_Store
 
 # OS
 Thumbs.db
 .DS_Store
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Runtime
-.env
-.env.local
-.env.*.local
+# Session notes
+Session_Summary_*.md
